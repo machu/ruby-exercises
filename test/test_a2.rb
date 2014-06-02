@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "./a2"
 
-class TestA2 < Minitest::Test
+class TestA2 < MiniTest::Unit::TestCase
 	def test_low_price
 		items = [
 			{title: "a", price: 70},

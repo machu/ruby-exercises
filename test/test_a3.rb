@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "./a3"
 
-class TestA3 < Minitest::Test
+class TestA3 < MiniTest::Unit::TestCase
 	def test_count_under_3
 		assert_equal 2, count_under_3([6, 2, 3])
 		assert_equal 0, count_under_3([4, 5, 6])
