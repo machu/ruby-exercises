@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>BMI計算</title>
+</head>
+<body>
+<h1>BMI計算プログラム</h1>
+
+<form action="/bmi" method="post">
+	<label for="height">身長: </label>
+	<input id="height" name="height" type="text">
+	<label for="weight">体重: </label>
+	<input id="weight" name="weight" type="text">
+	<input type="submit">
+</form>
+<div>
+	あなたのBMIは <%= @bmi %> だね。
+</div>
+</body>
+</html>
