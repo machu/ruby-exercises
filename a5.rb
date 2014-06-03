@@ -4,6 +4,7 @@
 
 def replace(text)
   # write your code here!
+  text.gsub!(/e/, 'ten')
 end
 
 puts "------- a5.rb -------"

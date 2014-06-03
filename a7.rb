@@ -7,6 +7,7 @@
 
 def parse(params)
   # write your code here!
+  puts "This object does not have :text key." unless params[:text]
 end
 
 puts "------- a7.rb -------"

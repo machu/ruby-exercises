@@ -13,8 +13,9 @@ require 'pp'
 
 def low_price(items)
   # write your code here!
-
-  items
+  items.each do |item|
+    item[:special] = "Low price!" if item[:price] <= 100
+  end
 end
 
 puts "------- a2.rb -------"

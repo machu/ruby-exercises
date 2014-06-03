@@ -8,6 +8,9 @@ require 'pp'
 
 def upcase_exclamation(hash)
   # write your code here!
+  hash.each do |key, val|
+    val.upcase! if val.match(/!/)
+  end
 end
 
 puts "------- a4.rb -------"

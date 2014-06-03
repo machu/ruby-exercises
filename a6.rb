@@ -11,6 +11,7 @@
 
 def max(text1, text2, text3)
   # write your code here!
+  [text1, text2, text3].map(&:to_i).max
 end
 
 puts "------- a6.rb -------"

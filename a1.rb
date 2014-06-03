@@ -6,6 +6,7 @@
 
 def sum_only_odd(numbers)
   # write your code here!
+  numbers.select(&:odd?).inject(&:+) || 0
 end
 
 puts "------- a1.rb -------"

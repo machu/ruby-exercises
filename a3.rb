@@ -4,7 +4,9 @@
 def count_under3(numbers)
   count = 0
   # write your code here!
-
+  numbers.each do |number|
+    count += 1 if number <= 3
+  end
   count
 end
 

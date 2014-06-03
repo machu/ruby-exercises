@@ -8,6 +8,16 @@
 
 def avarage(alice, bob, carol)
   # write your code here!
+  students = [alice, bob, carol]
+  score = {}
+  [:english, :math, :history].each do |subject|
+    sum = 0
+    students.each do |student|
+      sum += student[subject]
+    end
+    score[subject] = sum / students.size
+  end
+  score
 end
 
 alice = { english: 90, math: 60, history: 75 }
