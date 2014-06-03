@@ -10,5 +10,8 @@ def upcase_exclamation(hash)
 	# write your code here!
 end
 
+puts "------- a4.rb -------"
+
 users = {alice: "yeah", bob: "yo!", linda: "wow!" }
-pp upcase_exclamation(users)
+upcase_exclamation(users)
+pp users

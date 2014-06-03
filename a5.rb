@@ -2,10 +2,12 @@
 # 
 # ヒント：文字列の置換は String#gsub! を使います。
 
-def gsub(text)
+def replace(text)
 	# write your code here!
 end
 
+puts "------- a5.rb -------"
+
 text = "write"
-gsub(text)
+replace(text)
 p text

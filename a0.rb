@@ -5,4 +5,6 @@ def hello
 	"Hello World!"
 end
 
+puts "------- a0.rb -------"
+
 puts hello

@@ -13,12 +13,15 @@ require 'pp'
 
 def low_price(items)
 	# write your code here!
+
+	items
 end
+
+puts "------- a2.rb -------"
 
 items = [
 	{title: "a", price: 70},
   {title: "b", price: 200},
   {title: "c", price: 50}
 ]
-
 pp low_price(items)

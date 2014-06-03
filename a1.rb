@@ -8,5 +8,7 @@ def sum_only_odd(numbers)
 	# write your code here!
 end
 
+puts "------- a1.rb -------"
+
 numbers = [2, 3, 5, 7, 11]
 puts sum_only_odd(numbers)
