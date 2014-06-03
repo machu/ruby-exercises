@@ -3,9 +3,9 @@
 
 def count_under3(numbers)
   count = 0
-# write your code here!
+  # write your code here!
 
-count
+  count
 end
 
 puts "------- a3.rb -------"
