@@ -10,7 +10,7 @@
 # "123".to_i #=> 123
 
 def max(text1, text2, text3)
-	# write your code here!
+  # write your code here!
 end
 
 puts "------- a6.rb -------"

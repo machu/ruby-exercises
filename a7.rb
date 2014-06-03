@@ -6,7 +6,7 @@
 # parse(:title => ”the Ruby book”)
 
 def parse(params)
-	# write your code here!
+  # write your code here!
 end
 
 puts "------- a7.rb -------"

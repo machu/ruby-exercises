@@ -5,7 +5,7 @@
 # ちなみに偶数か調べるのは Fixnum#even? メソッドです。
 
 def sum_only_odd(numbers)
-	# write your code here!
+  # write your code here!
 end
 
 puts "------- a1.rb -------"

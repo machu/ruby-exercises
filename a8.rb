@@ -7,7 +7,7 @@
 # 各科目の平均点を計算し、ハッシュに格納してください
 
 def avarage(alice, bob, carol)
-	# write your code here!
+  # write your code here!
 end
 
 alice = { english: 90, math: 60, history: 75 }

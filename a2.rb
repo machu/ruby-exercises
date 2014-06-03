@@ -12,15 +12,15 @@ require 'pp'
 #  {:title=>"c", :price=>50, :special=>"Low price!"}]
 
 def low_price(items)
-	# write your code here!
+  # write your code here!
 
-	items
+  items
 end
 
 puts "------- a2.rb -------"
 
 items = [
-	{title: "a", price: 70},
+  {title: "a", price: 70},
   {title: "b", price: 200},
   {title: "c", price: 50}
 ]

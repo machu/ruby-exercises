@@ -7,7 +7,7 @@ require 'pp'
 # {alice: "yeah", bob: "YO!", linda: "WOW!" }
 
 def upcase_exclamation(hash)
-	# write your code here!
+  # write your code here!
 end
 
 puts "------- a4.rb -------"
