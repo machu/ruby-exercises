@@ -5,6 +5,9 @@ require 'pp'
 # {alice: "yeah", bob: "yo!", linda: "wow!" }
 # ↑というHash を↓にできればOKです。
 # {alice: "yeah", bob: "YO!", linda: "WOW!" }
+# 
+# ヒント1: !という文字が含まれるかどうかは、正規表現を使うことで調べられます。
+# ヒント2: Stringオブジェクトには、文字列を大文字に変換するメソッドがあります。
 
 def upcase_exclamation(hash)
   # write your code here!

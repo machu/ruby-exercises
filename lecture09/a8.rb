@@ -10,6 +10,8 @@ def avarage(alice, bob, carol)
   # write your code here!
 end
 
+puts "------- a8.rb -------"
+
 alice = { english: 90, math: 60, history: 75 }
 bob   = { english: 50, math: 90, history: 80 }
 carol = { english: 18, math: 50, history: 100 }
